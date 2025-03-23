@@ -1,0 +1,45 @@
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #4F4F4F;
+    color:white;
+    font-size: 20px;    
+    width: 100%;
+    
+}
+
+.navbar a {
+    text-decoration:none;
+    color:white;
+    padding: 20px;
+    margin: 0 15px;
+}
+
+.GamesPS4 {
+    display: flex;
+    gap:16px;
+    background-color: #05042f;
+}
+
+.GamesPS4 img{
+    width: 11%;
+    height: auto;
+    object-fit: cover;
+    padding:2%;
+}
+
+.GamesPS5 {
+    display: flex;
+    gap:16px;
+    background-color: #adaceb;
+
+}
+
+.GamesPS5 img{
+    width: 13%;
+    height: auto;
+    object-fit: cover;
+    padding:1%;
+
+}
