@@ -10,18 +10,18 @@
 ```
 GameLoop-Shop/
 │
-├── imgJogosPS4/           # PASTA COM FOTOS DE JOGOS PS4
-│   ├── NARUTO-S4_200x.jpg # Imagem
-│   ├── PS4FIFA23_200x.jpg # Imagem
+├── imgJogosPS4/                # PASTA COM FOTOS DE JOGOS PS4
+│   ├── NARUTO-S4_200x.jpg      # Imagem
+│   ├── PS4FIFA23_200x.jpg      # Imagem
 │   └── ...
 │
-├── imgJogosPS5/          # PASTA COM FOTOS DE JOGOS PS5
-│   ├── 1738017676-elde... # Imagem
-│   ├── AssassinsCreed.jpg # Imagem
+├── imgJogosPS5/                # PASTA COM FOTOS DE JOGOS PS5
+│   ├── 1738017676-elde...      # Imagem
+│   ├── AssassinsCreed.jpg      # Imagem
 │   └── ...
 │
-├── README.md             # Arquivo de documentação do projeto
-├── index.html            # Arquivo de html
-├── styles.css            # Arquivo de estilização
-└── script.js               # Arquivos de configuração (para banco de dados, API, etc.)
+├── README.md                   # Arquivo de documentação do projeto
+├── index.html                  # Arquivo de html
+├── styles.css                  # Arquivo de estilização
+└── script.js                   # Arquivos de configuração (para banco de dados, API, etc.)
 ```
