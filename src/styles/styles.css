@@ -1,0 +1,143 @@
+/*BARRA DE NAVEGAÇÃO*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #4F4F4F;
+    color:white;
+    font-size: 20px;    
+    width: 100%;
+    
+}
+
+body{
+    background-color: #00000080;
+}
+
+.navbar a {
+    text-decoration:none;
+    color:white;
+    padding: 20px;
+    margin: 0 15px;
+}
+
+/*CLASSE PAI PS5*/
+.GamesPS4 {
+    display: flex;
+    gap:16px;
+    background-color: #030327e7;
+}
+
+.GamesPS4 img{
+    width: 11%;
+    height: auto;
+    object-fit: cover;
+    padding:2%;
+}
+
+/*IDS PS4*/
+#j1:hover{
+    transform: scale(1.2);
+}
+#j2:hover{
+    transform: scale(1.2);
+}
+#j3:hover{
+    transform: scale(1.2);
+}
+#j4:hover{
+    transform: scale(1.2);
+}
+#j5:hover{
+    transform: scale(1.2);
+}
+#j6:hover{
+    transform: scale(1.2);
+}
+#j7:hover{
+    transform: scale(1.2);
+}
+#j8:hover{
+    transform: scale(1.2);
+}
+#j9:hover{
+    transform: scale(1.2);
+}
+#j10:hover{
+    transform: scale(1.2);
+}
+#j11:hover{
+    transform: scale(1.2);
+}
+#j12:hover{
+    transform: scale(1.2);
+}
+
+/*CLASSE PAI PS5*/
+.GamesPS5 {
+    display: flex;
+    gap:16px;
+    background-color: #020203d5;
+
+}
+
+.GamesPS5 img{
+    width: 11%;
+    height: auto;
+    object-fit: cover;
+    padding:2%;
+
+}
+
+/*MODAL*/
+.classmodal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #00000080;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.modal1{
+    border-radius: 12%;
+    width: 50%;
+    min-width: 45%;
+    min-height: 80%;
+    background-color:#ffffff96;
+    backdrop-filter: blur(10px);
+}
+
+/*BOTAO*/
+.fechar{
+    position:absolute;
+    top: 10px;
+    right:  10px;
+    width: 40px;
+    right: 40px;
+    border-radius: 20%;
+    border: none;
+    background-color: red;
+    color:antiquewhite;
+    cursor: pointer;
+}
+.fechar:hover {
+    background-color: darkred; 
+}
+
+/*FUNCAO MODAL*/
+.classmodal.abrir{
+    display: flex;
+}
+
+#videoModal{
+    align-items: center;
+}
+
+#videoModal{
+    width: 80%;
+    height: 50vh;
+    margin-top: 10%;
+    margin-left: 10%;
+}
