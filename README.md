@@ -7,6 +7,7 @@
   - CSS
   
 # ESTRUTURA DO PROJETO
+```
 GameLoop-Shop/
 │
 ├── imgJogosPS4/           # PASTA COM FOTOS DE JOGOS PS4
@@ -23,3 +24,4 @@ GameLoop-Shop/
 ├── index.html            # Arquivo de html
 ├── styles.css            # Arquivo de estilização
 └── script.js               # Arquivos de configuração (para banco de dados, API, etc.)
+```
