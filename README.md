@@ -1,5 +1,5 @@
 # GameLoop-Shop
-  O GameLoop Shop é um site de vendas de jogos e produtos relacionados ao mundo dos games, desenvolvido como parte de um projeto acadêmico para a disciplina de desenvolvimento web. O objetivo principal desse projeto é proporcionar aos alunos uma compreensão prática do processo de criação de um site, utilizando HTML, CSS e JavaScript para o desenvolvimento das funcionalidades e da interface do usuário.
+  O GameLoop Shop é um site de vendas de jogos e produtos relacionados ao mundo dos games, desenvolvido como parte de um projeto acadêmico para a disciplina frontend. O objetivo principal desse projeto é proporcionar aos alunos uma compreensão prática do processo de criação de um site, utilizando HTML, CSS e JavaScript para o desenvolvimento das funcionalidades e da interface do usuário.
 
 # REQUISITOS TÉCNICOS
   - JAVASCRIPT
