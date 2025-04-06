@@ -50,6 +50,7 @@ body{
 .GamesPS4 img{
     height: 20rem;
     width: 15rem;
+
 }
 
 /*IDS PS4*/
@@ -67,6 +68,7 @@ body{
     border-radius: 10px;
 }
 
+
 /*CLASSE PAI PS5*/
 .GamesPS5 {
     display: flex;
@@ -74,10 +76,7 @@ body{
     justify-content: center;
     gap:16px;
     flex-flow: row wrap;
-
-
 }
-
 
 .wrapperGames {
     background-color: #00000048;
@@ -126,6 +125,7 @@ body{
     min-height: 80%;
     background-color:#ffffff96;
     backdrop-filter: blur(10px);
+    overflow: auto;
 }
 
 /*BOTAO*/
