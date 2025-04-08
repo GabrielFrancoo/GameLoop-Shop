@@ -3,14 +3,39 @@
     font-family: "Poppins", sans-serif;
 
 }
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #42424221;
+    color:white;
+    font-size: 20px;    
+    width: 100%;
+    border-radius: 10rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#logo {
+    margin-right: auto;
+}
+
 body{
     background-color: #0a1128;
     margin:0;
     padding:0;
     height: 100vh;
     display:flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+}
+.navbar a {
+    text-decoration:none;
+    color:white;
+    padding: 20px;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    color: #00a6fb;
+    transition: .2s;
 }
 
 .bloco{
@@ -18,6 +43,7 @@ body{
     height: 50vh;
     width: 80vh; 
     border-radius: 20px;
+    margin:auto;
 }
 
 .login{
@@ -40,9 +66,13 @@ body{
     height: 40px;
     margin-right: center;
     font-size: 15px;
-
-
 }
 
+#cadastro{
+    text-decoration: underline;
+    margin-left: 35%;
+}
 
-
+#cadastro:hover{
+    color: blue;
+}

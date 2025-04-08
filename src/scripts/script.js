@@ -14,3 +14,7 @@ function abrirModal(url1){
     });
     
 }
+
+document.getElementById("carrinho").addEventListener("click", () => {
+    alert("Jogo adicionado ao carrinho! 🛒");
+  });
