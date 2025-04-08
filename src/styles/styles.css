@@ -255,3 +255,20 @@ body{
     position: absolute;
     margin-top: -3rem;
 }
+
+
+@media only screen and (max-width: 1032px) {
+
+    .GamesPS4, .GamesPS5 {
+        align-items: unset;
+        justify-content: unset;
+        overflow: scroll;
+        max-width: 90%;
+        margin: 0;
+    }
+
+    .backBtn, .nextBtn {
+        display: none;
+    }
+    
+}

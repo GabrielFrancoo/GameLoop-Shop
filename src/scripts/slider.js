@@ -26,7 +26,7 @@ function changeSliderSecond (Style) {
 right_first.addEventListener("click",  (event) => {
     i += 10
     changeSliderFirst(`translate3d(${i}rem, 0px, 0px)`)
-    i = 20 ?  changeSliderFirst(`translate3d(${20}rem, 0px, 0px)`) : changeSliderFirst(`translate3d(${i}rem, 0px, 0px)`) // Ternario, valida se está igual a vinte
+    i = 40 ?  changeSliderFirst(`translate3d(${40}rem, 0px, 0px)`) : changeSliderFirst(`translate3d(${i}rem, 0px, 0px)`) // Ternario, valida se está igual a vinte
 
 }, false)
 
@@ -34,21 +34,21 @@ right_first.addEventListener("click",  (event) => {
 left_first.addEventListener("click",  (event) => {
     i -= 10
 
-    i = -20 ?  changeSliderFirst(`translate3d(${-20}rem, 0px, 0px)`) : changeSliderFirst(`translate3d(${i}rem, 0px, 0px)`) // Ternario, valida se está igual a vinte
+    i = -40 ?  changeSliderFirst(`translate3d(${-40}rem, 0px, 0px)`) : changeSliderFirst(`translate3d(${i}rem, 0px, 0px)`) // Ternario, valida se está igual a vinte
 
 }, false)
 
 right_second.addEventListener("click",  (event) => {
     i += 10
     changeSliderSecond(`translate3d(${i}rem, 0px, 0px)`)
-    i = 20 ?  changeSliderSecond(`translate3d(${20}rem, 0px, 0px)`) : changeSliderSecond(`translate3d(${i}rem, 0px, 0px)`) // Ternario, valida se está igual a vinte
+    i = 40 ?  changeSliderSecond(`translate3d(${40}rem, 0px, 0px)`) : changeSliderSecond(`translate3d(${i}rem, 0px, 0px)`) // Ternario, valida se está igual a vinte
 
 }, false)
 
 left_second.addEventListener("click",  (event) => {
     i -= 10
     console.log(i == -20)
-    i = -20 ?  changeSliderSecond(`translate3d(${-20}rem, 0px, 0px)`) : changeSliderSecond(`translate3d(${i}rem, 0px, 0px)`) // Ternario, valida se está igual a vinte
+    i = -40 ?  changeSliderSecond(`translate3d(${-40}rem, 0px, 0px)`) : changeSliderSecond(`translate3d(${i}rem, 0px, 0px)`) // Ternario, valida se está igual a vinte
 
 }, false)
 
