@@ -12,7 +12,7 @@
      <nav class="navbar">
         <a href="#" id="logo">Gamesloop</a>
         <a href="./pages/noticias.html">Noticias</a>
-        <a href="">Carrinho</a>
+        <a href="./pages/carrinho.html">Carrinho</a>
         <a href="./pages/login.html">Entrar</a>
     </nav>
     <br>  
@@ -44,7 +44,7 @@
                     <p id="price">R$ 284,00</p>
                 </div>
                 <div class="gamesClass" id="ps4_games">
-                    <img src="./assets/ps4/thelastof.jpg" class="gameImg" a alt="The Last Of Us" onclick="abrirModal('https://www.youtube.com/embed/ygVPHxkokAE?si=-yzSTXFDVRAz4ECT')"/>
+                    <img src="./assets/ps4/thelastof.jpg" class="gameImg" a alt="The Last Of Us" onclick="abrirModal('https://www.youtube.com/embed/ygVPHxkokAE?si=-yzSTXFDVRAz4ECT', 'The Last Of Us', 'asdasdasdas')"/>
                     <p id="price">R$ 284,00</p>
                 </div>
                 <div class="gamesClass" id="ps4_games">
@@ -92,11 +92,11 @@
         <button href="#" class="nextBtn" id="right_second">&#8250;</button>
         </section>
     </section>
-        
         <section id="idmodal" class="classmodal">
             <article class="modal1">
                 <button class="fechar" id="fechar">X</button>
                 <iframe id="videoModal" n></iframe>
+                <button id="btnAdd">Adicionar ao carrinho</button>
             </article>
         </section>
         <br>   
