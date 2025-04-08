@@ -15,8 +15,7 @@
 # ESTRUTURA DO PROJETO
 ```
 GameLoop-Shop/
-│
-├── src/                            # Pasta raiz do projeto
+│                                   # Pasta raiz do projeto
 │   ├── assets                      # Pasta com arquivos de imagens
 │      ├── ps4                      # Pasta com imagens de jogos
 │       ├── NARUTO-S4_200x.jpg      # Imagem
