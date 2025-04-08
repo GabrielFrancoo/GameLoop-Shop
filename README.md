@@ -5,7 +5,13 @@
   - JAVASCRIPT
   - HTML
   - CSS
+
+# Implementações:
+  O site possui implementações de API, utilizando um tipo de visualização de arquivo em XML, no qual reune os dados em um unico local, geralmente
+  chamado de RSS FEED(Really Simple Syndication), para demonstração de seus valores. Além disso, foi utilizado DOM para animações como slider e 
+  carousel.
   
+
 # ESTRUTURA DO PROJETO
 ```
 GameLoop-Shop/
@@ -20,10 +26,21 @@ GameLoop-Shop/
 │       ├── 1738017676-elde...      # Imagem
 │       ├── AssassinsCreed.jpg      # Imagem
 │       └── ...
+│   ├── sliders                     # Pasta com imagens para o slider
+│       ├── ps5.jpg                 # Imagem
+│       ├── steamdeck.jpg           # Imagem
+│       └── ...
+│   ├── pages                       # Pasta com as paginas em HTML do projeto
+│      └── login.html               # Arquivo html, responsavel pela area de login
+│      └── noticias.html            # Arquivo html, responsavel pela página de noticia
 │   ├── scripts                     # Pasta com arquivos scripts do projeto
 │      └── script.js                # arquivo script do sistema
-│   ├── styles                      # Pasta com arquivos scripts do projeto
-│      └── styles.css               # arquivo de estilização do sistema
+│      └── api.js                   # Arquivo em JS, responsavel pela utilização da api na página de noticias
+│      └── carousel.js              # Arquivo em JS, responsavel pela troca de imagens na página principal 
+│      └── slider.js                # arquivo em JS, responsavel pela troca de jogos na página principal
+│   ├── styles                      # Pasta com arquivos styles do projeto
+│      └── styles.css               # arquivo principal de estilização do sistema
+│      └── login.css               # Estilização da página de login
 │   ├── index.html                  # arquivo html do sistema
 │
 └── README.md                       # Arquivo de documentação do projeto

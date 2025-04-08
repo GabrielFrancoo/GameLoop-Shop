@@ -1,3 +1,5 @@
+const buttonAdd = document.getElementById("btnAdd")
+
 function abrirModal(url1){
     const modal1 = document.getElementById('idmodal');
     const iframe = document.getElementById('videoModal');
@@ -15,6 +17,8 @@ function abrirModal(url1){
     
 }
 
-document.getElementById("btnAdd").addEventListener("click", () => {
-    alert("Jogo adicionado ao carrinho! 🛒");
-  });
+
+
+buttonAdd.addEventListener("click", (event) => {
+    alert("Adicionado ao carrinho!")
+})

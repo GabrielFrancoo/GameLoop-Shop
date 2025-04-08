@@ -1,78 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     font-family: "Poppins", sans-serif;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.navbar {
+
+body {
+    background-color: #f2f2f2;
+}
+
+.loginWrapper {
     display: flex;
+    align-items: center;
     justify-content: center;
-    background-color: #42424221;
-    color:white;
-    font-size: 20px;    
+    margin-top: 5vh;
+    padding: 0 10px;
+}
+
+.bloco {
+    height: auto;
+    max-width: 40%;
     width: 100%;
-    border-radius: 10rem;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 20px;
+    background-color: #c8c8c81f;
+    color: #ffffff;
+    padding: 40px;
 }
 
-#logo {
-    margin-right: auto;
+.login {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
 }
 
-body{
-    background-color: #0a1128;
-    margin:0;
-    padding:0;
-    height: 100vh;
-    display:flex;
-    flex-direction: column;
-}
-.navbar a {
-    text-decoration:none;
-    color:white;
-    padding: 20px;
-    margin: 0 15px;
+#inputName, #inputPass {
+    font-size: 15px;
+    height: 40px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    padding: 0 10px;
 }
 
-.navbar a:hover {
-    color: #00a6fb;
+.login button {
+    height: 40px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 15px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+.login label {
+    text-align: center;
+}
+
+.login input::placeholder {
+    text-align: center;
+}
+
+.login input:hover {
+    background-color: #dbdbdb;
+    border: 1px solid #dbdbdb;
     transition: .2s;
 }
 
-.bloco{
-    background-color:white;
-    height: 50vh;
-    width: 80vh; 
-    border-radius: 20px;
-    margin:auto;
+/* Media Queries para telas menores */
+
+@media screen and (max-width: 768px) {
+    .bloco {
+        width: 90%;
+        height: auto;
+    }
+
+    .loginWrapper {
+        margin-top: 5vh;
+    }
+
+    .login {
+        gap: 15px;
+    }
+
+    #inputName, #inputPass, .login button {
+        width: 90%;
+        max-width: none;
+    }
+
+    .bloco {
+        padding: 20px;
+    }
 }
 
-.login{
-    margin-top:5%;
-    display:grid;
-    grid-template-rows: 0fr 0fr;
-    gap:5px;
-    margin-left: 20%;
-    margin-right: 30%;
+@media screen and (max-width: 480px) {
+    .login {
+        grid-template-columns: 1fr;
+    }
 
-
-}
-.login input{
-    font-size: 15px;
-    height: 40px;
-    margin-right: center;
-}
-
-.login button{
-    height: 40px;
-    margin-right: center;
-    font-size: 15px;
-}
-
-#cadastro{
-    text-decoration: underline;
-    margin-left: 35%;
-}
-
-#cadastro:hover{
-    color: blue;
+    #inputName, #inputPass, .login button {
+        font-size: 14px;
+        padding: 0 10px;
+    }
 }
