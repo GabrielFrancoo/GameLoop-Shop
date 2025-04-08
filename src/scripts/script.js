@@ -15,6 +15,6 @@ function abrirModal(url1){
     
 }
 
-document.getElementById("carrinho").addEventListener("click", () => {
+document.getElementById("btnAdd").addEventListener("click", () => {
     alert("Jogo adicionado ao carrinho! 🛒");
   });

@@ -138,11 +138,11 @@ body{
 
 }
 
-#price {
+.price {
     margin-top: 50px;
     color: #ffffff;
     text-align: center;
-    font-size: 20px\;
+    font-size: 20px;
 }
 
 /*MODAL*/
@@ -209,23 +209,27 @@ body{
 
 
 #btnAdd {
-    text-align: center; 
-    margin: 0 auto; 
-    display: flex;
-    background-color: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 20px;
-    padding: 20px;
-    text-align: center;
+    background-color: #00000048;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 10px;
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2%;
+    margin-left: 40%;
 }
 
 
 #btnAdd:hover {
-    background-color: #bebebe;
-    border: 1px solid #bebebe;
-    text-align: center;
-    transition: .2s;
+    background-color: #0a1128;
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
 .description {
