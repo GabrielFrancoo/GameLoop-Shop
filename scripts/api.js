@@ -1,4 +1,4 @@
-const URL = "https://cors-anywhere.herokuapp.com/https://www.gamereactor.pt/rss/rss.php?texttype=[4,1,2,3,5,9,10,7,8,11]" || "https://www.gamereactor.pt/rss/rss.php?texttype=[4,1,2,3,5,9,10,7,8,11]";
+const URL = "https://www.gamereactor.pt/rss/rss.php?texttype=[4,1,2,3,5,9,10,7,8,11]";
 
 const xml = new XMLHttpRequest();
 
